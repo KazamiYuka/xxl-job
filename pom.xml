@@ -13,6 +13,7 @@
 	<modules>
 		<module>xxl-job-core</module>
 		<module>xxl-job-admin</module>
+		<module>xxl-job-admin-oracle</module>
 		<module>xxl-job-executor-samples</module>
     </modules>
 
@@ -45,6 +46,7 @@
 		<quartz.version>2.3.0</quartz.version>
 
 		<spring-boot.version>1.5.10.RELEASE</spring-boot.version>
+		<ojdbc.version>12.1.0.2.0</ojdbc.version>
 	</properties>
 
 	<build>
